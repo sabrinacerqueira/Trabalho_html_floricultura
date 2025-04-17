@@ -1,0 +1,464 @@
+/* fontes */
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400; 
+  font-style: normal;
+}
+.cormorant-infant {
+  font-family: "Cormorant Infant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; 
+  font-style: normal;
+}
+
+/* titulo */
+header{
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* corpo */
+body {  
+  font-family: "Cormorant Infant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; 
+  font-style: normal;
+  background-image: url(fundo.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+section {
+  padding: 30px;
+  margin-bottom: 20px;
+}
+/* menu */
+.menufixo {
+  position: sticky;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  margin: auto;
+  text-align: right;
+  padding: 20px;
+}
+.menufixo a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 15px;
+}
+.menufixo :hover {
+  font-weight: bold;
+  background-color: #444;
+}
+/* links */
+a {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 15px; 
+}
+
+/* texto */
+.boxtexto {
+  background-image: url('capa.png'); 
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 400px;
+  width: 116%;
+  margin-left: -10%; 
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: justify;
+  color: white;
+}
+
+.boxtexto h1 {
+  font-size: 25px; 
+  text-align: center; 
+  margin-top: 20px; 
+  color: white; 
+}
+
+.boxtexto p {
+  width: 80%;
+  font-size: 25px;
+  line-height: 0.90;  
+  color: white; 
+  text-align: justify; 
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+ 
+}
+
+.bloco {
+  width: 50%;
+  display: inline-block;
+  border: 3px solid rgb(255, 255, 255);
+}
+/* conteudo do meio da pagina */
+.meio {
+  display: block;
+  text-align: center;
+  margin: 20px;
+}
+.meio h1 {
+  margin-top: 50px;
+  margin-left: 350px;
+  color:white; 
+}
+
+.meio p{
+  font-size: 25px;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.imgeesq {
+  display: inline-block; 
+  width: 30%; 
+  vertical-align: middle; 
+  margin-right: 20px; 
+  border-radius: 50%;
+}
+
+.texto {
+  display: inline-block; 
+  width: 50%;
+  vertical-align: middle; 
+  text-align: justify; 
+  padding: 10px;
+}
+
+h1, h2 {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: "Cormorant Infant", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: white;
+}
+main {
+  width: 90%;
+  margin: auto; 
+}
+/* imagens */
+#galeria {
+  text-align: center;
+  display: block;
+}
+
+.card {
+  display: inline-block;
+  width: calc(33% - 30px);
+  margin: 15px; 
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  vertical-align: top; 
+  min-height: 720px;
+
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 3px solid #eee;
+}
+
+.card h1 {
+  color: black;
+  text-align: center;
+  padding: 15px ;
+}
+
+.card p {
+  padding: 15px;
+  text-align: center;
+  color: #050505;
+  font-size: 20px;
+}
+.card .button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.imgfixa {
+  width: 200px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+/* botões */
+
+.button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  background-color:white;
+  border-radius: 50px
+}
+
+.button:hover {
+  font-weight: bold;
+  background-color: white; 
+}
+
+/* seção contato */
+#contato {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px 20px;
+  text-align: center;
+  color: #333;
+}
+
+#contato h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #4a2c2a;
+}
+
+#contato p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Cormorant Infant", serif;
+}
+
+.formulario textarea {
+  min-height: 100px;
+}
+
+.formulario button {
+  background-color: #4a2c2a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #333;
+}
+
+/* rodapé */
+.rodape {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 40px 20px 20px 20px;
+  font-family: "Cormorant Infant", serif;
+}
+
+.rodape-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.rodape-coluna {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.rodape-coluna h3, .rodape-coluna h4 {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #e5c6c2;
+}
+
+.rodape-coluna p, .rodape-coluna ul li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.rodape-coluna ul {
+  list-style: none;
+  padding: 0;
+}
+
+.rodape-coluna ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.rodape-coluna ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.redes-sociais {
+  margin-top: 20px;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 8px;
+  margin: 0 5px;
+}
+
+.redes-sociais a:hover {
+  background-color: #ffb6c1; 
+}
+
+.redes-sociais img {
+  width: 30px;
+  height: 30px;
+}
+.rodape-direitos {
+  border-top: 1px solid #444;
+  margin-top: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* responsividade  */
+@media (max-width: 575px){
+
+  body {
+    font-size: 14px; 
+  }
+
+  .menufixo {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .menufixo a {
+    font-size: 16px;
+    margin: 5px;
+    padding: 8px;
+  }
+  .boxtexto {
+      width: 100%;
+      margin-left: 0;
+      height: auto;
+      padding: 15px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  
+  .boxtexto h1 {
+      font-size: 22px;
+    }
+  
+  .boxtexto p {
+      font-size: 18px;
+      margin-left: 0;
+      width: 100%;
+      text-align: justify;
+    }
+
+  .imgeesq {
+    width: 75%; 
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .meio h1 {
+    font-size: 26px;
+    margin-left: 0;
+  }
+
+  .meio p {
+    font-size: 18px;
+    max-width: 90%;
+    text-align: justify;
+    margin: 10px auto;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: none;
+    height: auto;
+  }
+
+  .card img {
+    width: 100%; 
+    height: auto;
+  }
+
+  .card h1 {
+    font-size: 20px; 
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+
+  .card .button {
+    width: 80%; 
+    padding: 10px 15px;
+  }
+
+  .formulario {
+    width: 100%;
+  }
+
+  .formulario input, .formulario textarea {
+    font-size: 14px; 
+  }
+
+  .formulario button {
+    width: 100%; 
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .imgfixa {
+    width: 150px; 
+    bottom: 0px; 
+  }
+
+  .rodape-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+  .rodape-coluna {
+      margin-bottom: 20px;
+    }
+  }
